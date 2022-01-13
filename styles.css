@@ -1,0 +1,145 @@
+body {
+    margin: 0%;
+    font-family: "monaco", sans-serif;
+}
+
+.btn,
+.cta-b {
+    border-radius: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.btn {
+    border: none;
+}
+
+.dimage {
+    width: 300px;
+    
+}
+
+img {
+    width: 100px;
+}
+
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+h4 {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    margin: 0px;
+    padding-top: 70px;
+}
+
+h3 {
+    font-size: 48px;
+    margin-top: 0%;
+    color: #f9faf8;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sectext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    /* padding-left: 60px;
+    padding-right: 60px; */
+    flex-wrap: wrap;
+}
+
+.pic1,
+.pic2,
+.pic3,
+.pic4{
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}
+
+.qotd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    font-size: 36px;
+}
+
+.author {
+    align-self: flex-end;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    color: #e5e7eb;
+    align-items: center;
+    gap: 20px;
+    background-color: #3882f6;
+    margin-bottom: 87px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 35px;
+}
+
+footer {
+  position: fixed;
+  color: #1f2937;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header,
+footer,
+.desc {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.qotd,
+.container {
+    padding: 70px;
+}
