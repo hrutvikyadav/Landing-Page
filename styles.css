@@ -16,7 +16,7 @@ body {
 
 .dimage {
     width: 300px;
-    
+    max-width: -moz-available;    
 }
 
 img {
@@ -107,6 +107,8 @@ button {
     margin-left: 70px;
     margin-right: 70px;
     margin-top: 35px;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 footer {
@@ -137,6 +139,7 @@ footer,
     gap: 35px;
     padding-top: 70px;
     padding-bottom: 70px;
+    flex-wrap: wrap;
 }
 
 .qotd,
